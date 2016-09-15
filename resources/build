@@ -1,9 +1,16 @@
 #!/bin/bash
 ###
+# Updating apt cache
+###
+apt-get update
+###
 # Installing fpm dependencies
 ###
-apt-get install ruby-dev gcc make
+apt-get install --yes \
+  ruby-dev \
+  gcc \
+  make
 ###
 # Instlling fpm
 ###
-gem install fpm
+gem install --no-ri --no-rdoc fpm

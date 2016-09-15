@@ -6,4 +6,6 @@ COPY resources /resources
 
 RUN resources/build && rm -rf resources
 
-USER fpm
+VOLUME /data
+
+USER nobody
