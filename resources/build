@@ -1,0 +1,9 @@
+#!/bin/bash
+###
+# Installing fpm dependencies
+###
+apt-get install ruby-dev gcc make
+###
+# Instlling fpm
+###
+gem install fpm
