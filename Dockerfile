@@ -8,4 +8,4 @@ RUN resources/build && rm -rf resources
 
 VOLUME /data
 
-USER nobody
+WORKDIR /data
