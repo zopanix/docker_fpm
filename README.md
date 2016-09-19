@@ -1,4 +1,4 @@
-#FPM
+# FPM
 Effing package management in a box
 ## Usage
 `docker run -rm -v [PATH]:/data zopanix/fpm [COMMAND]`
