@@ -15,3 +15,7 @@ apt-get install --yes \
 # Instlling fpm
 ###
 gem install --no-ri --no-rdoc fpm
+###
+# Cleaning
+###
+
